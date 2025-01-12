@@ -5,7 +5,7 @@ import Product from '../../../../models/product.model';
 import Order from '../../../../models/order.model';
 import { BadRequestError, NotFoundError } from '../../../../types/errors';
 
-describe('createOrder Controller', () => {
+describe('createOrder command', () => {
     let req: Partial<Request>;
     let res: Partial<Response>;
     let next: sinon.SinonSpy;
